@@ -9,9 +9,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/briandowns/spinner"
-	"github.com/christophwitzko/go-curl"
+	"github.com/cqr-cryeye-forks/spinner"
+	"github.com/cqr-cryeye-forks/go-curl"
 )
+
+// 	"github.com/briandowns/spinner"
+// 	"github.com/christophwitzko/go-curl"
 
 func sendReq(hostname string) string {
 	err, str, _ := curl.String(hostname)
